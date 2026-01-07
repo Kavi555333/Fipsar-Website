@@ -64,7 +64,7 @@ const NewwhyChoose: React.FC = () => {
     {
       icon: ShieldCheck,
       title: 'Security & Compliance',
-      description: 'Security & compliance first SOC 2, ISO, GDPR-aligned processes.'
+      description: 'Security and compliance first — supporting SOC 2, ISO, GDPR, HIPAA, and GxP-aligned processes for regulated industries'
     },
     {
       icon: BarChart,
