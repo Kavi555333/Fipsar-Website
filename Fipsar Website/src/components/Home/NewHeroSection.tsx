@@ -51,12 +51,12 @@ const NewHeroSection: React.FC = () => {
               <h1 className="text-4xl md:text-4xl  font-bold leading-tight text-[#0D2B4D]">
                 {/* Transforming <span style={{ color: primaryBlue }}>Life Sciences</span> <br className="hidden xl:block" />
                 Through <span style={{ color: primaryBlue }}>Data & AI</span> */}
-                Transforming Life<span style={{ color: primaryBlue }}>  Sciences Through Data</span> <br className="hidden xl:block" />
+                Transforming Life<span style={{ color: primaryBlue }}>  Sciences Through Data,</span> <br className="hidden xl:block" />
                 AI & Compliance Excellence
               </h1>
               
               <p className="text-gray-700 text-lg md:text-xl lg:text-xl max-w-2xl leading-relaxed font-normal">
-                Specialized consulting firm delivering data engineering, advanced analytics, AI, and compliance-ready platforms for life sciences and healthcare organizations.
+                Specialized consulting firm delivering data engineering, advanced analytics, AI and compliance-ready platforms for life sciences and healthcare organizations.
                 {/* A specialized consulting firm delivering data engineering, advanced analytics and AI-driven solutions to life sciences and healthcare organizations. */}
               </p>
             </div>
