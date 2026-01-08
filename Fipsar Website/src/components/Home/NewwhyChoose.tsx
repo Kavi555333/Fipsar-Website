@@ -64,7 +64,7 @@ const NewwhyChoose: React.FC = () => {
     {
       icon: ShieldCheck,
       title: 'Security & Compliance',
-      description: 'Security and compliance first — supporting SOC 2, ISO, GDPR, HIPAA, and GxP-aligned processes for regulated industries'
+      description: 'Security and compliance first — supporting SOC 2, ISO, GDPR, HIPAA and GxP-aligned processes for regulated life sciences organizations.'
     },
     {
       icon: BarChart,
@@ -120,7 +120,7 @@ const NewwhyChoose: React.FC = () => {
             </h2>
 
             <p className="text-blue-100/80 text-sm md:text-base leading-relaxed max-w-xl font-semibold">
-              Say goodbye to downtime, unpredictable IT costs and compliance worries.
+              Say goodbye to data downtime, fragmented analytics and compliance risk. 
             </p>
             <p className="text-blue-100/80 text-sm md:text-base leading-relaxed max-w-xl font-semibold">
               We deliver a fully managed IT model designed for reliability, security and scale so your team can focus on what matters most: growing the business.
@@ -212,7 +212,7 @@ const NewwhyChoose: React.FC = () => {
                   backgroundImage: `linear-gradient(135deg, ${primaryColor} 0%, #0077b6 100%)` 
                 }}
               >
-               Your IT, Fully Managed
+             Your Data & Analytics Platforms, Fully Managed
               </span>
  
               {/* Subtle underline accent */}
@@ -232,10 +232,11 @@ const NewwhyChoose: React.FC = () => {
             {/* <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Your IT, Fully Managed</h2> */}
             <div className="w-24 h-1 bg-brand-500 mx-auto mb-8 rounded-full"></div>
             <p className="text-xl md:text-2xl text-slate-700 font-medium leading-relaxed">
-             From infrastructure to end-user support, cloud, and compliance, we take full ownership of your IT environment and ensure your data is fully secure.
+              From data platforms and analytics systems to cloud operations and compliance controls, 
+              we take full ownership of your data ecosystem. 
             </p>
             <p className="text-lg text-slate-500 mt-6 font-medium">
-              One partner. One predictable cost. <span className="text-brand-600 font-bold">Zero headaches.</span>
+              One partner. One predictable cost. <span className="text-brand-600 font-bold"> Compliance-ready operations.</span>
             </p>
           </div>
         </div>
