@@ -36,7 +36,7 @@ const NAV_ITEMS: NavItem[] = [
       { label: 'Business Intelligence & Visualization', href: '/service/businessIntelligence', description: '...', icon: <BarChart3  size={16} /> },
       { label: 'AI & Machine Learning', href: 'service/aimachine', description: '...', icon: <Brain  size={16} /> },
       { label: 'Data Governance', href: '/service/governance', description: '...', icon: <ShieldCheck  size={16} /> },
-      { label: 'Managed Services', href: '/service/managedservice', description: '...', icon: <ServerCog  size={16} /> },
+      { label: 'Data Platform Managed Services', href: '/service/managedservice', description: '...', icon: <ServerCog  size={16} /> },
       { label: 'Digital Transformation', href: '/service/digitaltransformation', description: '...', icon: <RefreshCcw  size={16} /> },
     ] as SubItem[]
   },

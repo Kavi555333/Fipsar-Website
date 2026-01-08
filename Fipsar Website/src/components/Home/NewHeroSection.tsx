@@ -56,7 +56,8 @@ const NewHeroSection: React.FC = () => {
               </h1>
               
               <p className="text-gray-700 text-lg md:text-xl lg:text-xl max-w-2xl leading-relaxed font-normal">
-                A specialized consulting firm delivering data engineering, advanced analytics and AI-driven solutions to life sciences and healthcare organizations.
+                Specialized consulting firm delivering data engineering, advanced analytics, AI, and compliance-ready platforms for life sciences and healthcare organizations.
+                {/* A specialized consulting firm delivering data engineering, advanced analytics and AI-driven solutions to life sciences and healthcare organizations. */}
               </p>
             </div>
 
