@@ -1,6 +1,6 @@
 import React from "react";
 import desktopBg from "../../assets/ContactUsbackground.svg";
-import mobileBg from "../../assets/ContactUsElemetsMob.svg";
+// import mobileBg from "../../assets/ContactUsElemetsMob.svg";
 
 const HeroContact: React.FC = () => {
   return (
@@ -13,9 +13,9 @@ const HeroContact: React.FC = () => {
           bg-no-repeat bg-center
           bg-cover lg:bg-contain
         "
-        style={{
-          backgroundImage: `url(${mobileBg})`,
-        }}
+        // style={{
+        //   backgroundImage: `url(${mobileBg})`,
+        // }}
       >
         {/* Desktop background override */}
         <div
@@ -38,7 +38,7 @@ const HeroContact: React.FC = () => {
           {/* Heading */}
           <h1 className="text-3xl sm:text-4xl lg:text-[3.5rem] leading-tight font-extrabold text-slate-900 tracking-tight">
             Every successful project <br />
-            <span className="text-[#02A5E6]">starts with &apos;hello&apos;</span>
+            <span className="text-[#02A5E6]">starts with &apos;Hello&apos;</span>
           </h1>
         </div>
       </div>

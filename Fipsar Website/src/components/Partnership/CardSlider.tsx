@@ -1,6 +1,15 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react'; 
+
+
+import cardSlider1 from "../../assets/CardSlider/Scalable,secure,andenterprise-readysolutions.png";
+import cardSlider2 from "../../assets/CardSlider/Fasterintegrationswithyourexistingsystems.png";
+import cardSlider3 from "../../assets/CardSlider/Improveddatagovernanceandinteroperability.png";
+import cardSlider4 from "../../assets/CardSlider/AccesstoadvancedAI,analytics,andcloudcapabilities.png";
+import cardSlider5 from "../../assets/CardSlider/Reducedimplementationtimeandtotalcostofownership.png";
+import cardSlider6 from "../../assets/CardSlider/SolutionsfullytailoredtoLifeSciencesworkflows.png";
+
 
 interface SliderItem {
   id: number;
@@ -10,14 +19,50 @@ interface SliderItem {
 }
 
 const PRIMARY_COLOR = "#02A5E6";
+
 const SLIDER_ITEMS: SliderItem[] = [
-  { id: 1, text: "Scalable, secure  and enterprise-ready solutions", imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTWIJejUOMWJx1XHBGzbJZy_knwqIbIObaxg&s", category: "Scalability" },
-  { id: 2, text: "Faster integrations with your existing systems", imageUrl: "https://cdn.prod.website-files.com/688f85e5e060aa7727c5ba51/68c080ebc110db54a6e4f17f_integration-graphic-blog.jpeg", category: "Integration" },
-  { id: 3, text: "Improved data governance and interoperability", imageUrl: "https://img.freepik.com/free-vector/business-infographic-with-image_23-2148340472.jpg?semt=ais_hybrid&w=740&q=80", category: "Governance" },
-  { id: 4, text: "Access to advanced AI, analytics  and cloud capabilities", imageUrl: "https://guptadeepak.com/content/images/size/w2000/2024/06/future-of-website-building-AI-automated.webp", category: "Advanced AI" },
-  { id: 5, text: "Reduced implementation time and total cost of ownership", imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb_aHuMKJ3FYQINcwtzilSojWWQzN-aIEyBA&s", category: "Efficiency" },
-  { id: 6, text: "Solutions fully tailored to Life Sciences workflows", imageUrl: "https://pmlive.com/wp-content/uploads/2024/12/healthcare_pharma_web_design_strategies_2025-1024x682.webp", category: "Life Sciences" }
-];
+  { id: 1, text: "Scalable, secure  and enterprise-ready solutions", imageUrl: cardSlider1, category: "Scalability" },
+  { id: 2, text: "Faster integrations with your existing systems",imageUrl: cardSlider2, category: "Integration" },
+  { id: 3, text: "Improved data governance and interoperability", imageUrl: cardSlider3, category: "Governance" },
+  { id: 4, text: "Access to advanced AI, analytics  and cloud capabilities", imageUrl: cardSlider4, category: "Advanced AI" },
+  { id: 5, text: "Reduced implementation time and total cost of ownership", imageUrl: cardSlider5, category: "Efficiency" },
+  { id: 6, text: "Solutions fully tailored to Life Sciences workflows", imageUrl: cardSlider6, category: "Life Sciences" }
+]; 
+// const SLIDER_ITEMS: SliderItem[] = [
+//   // { id: 1, text: "Scalable, secure and enterprise-ready solutions", imageUrl: "/slider-images/scalability.jpg", category: "Scalability" },
+//   { 
+//     id: 2, 
+//     text: "Faster integrations with your existing systems", 
+//     imageUrl: "/slider-images/integration.jpg", // Matches file in public/slider-images/
+//     category: "Integration" 
+//   },
+//   { 
+//     id: 3, 
+//     text: "Improved data governance and interoperability", 
+//     imageUrl: "/slider-images/governance.jpg", 
+//     category: "Governance" 
+//   },
+//   { 
+//     id: 4, 
+//     text: "Access to advanced AI, analytics and cloud capabilities", 
+//     imageUrl: "/slider-images/advanced-ai.webp", 
+//     category: "Advanced AI" 
+//   },
+//   { 
+//     id: 5, 
+//     text: "Reduced implementation time and total cost of ownership", 
+//     imageUrl: "/slider-images/efficiency.jpg", 
+//     category: "Efficiency" 
+//   },
+//   { 
+//     id: 6, 
+//     text: "Solutions fully tailored to Life Sciences workflows", 
+//     imageUrl: "/slider-images/life-sciences.webp", 
+//     category: "Life Sciences" 
+//   }
+// ];
+
+
 
 const CardSlider: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

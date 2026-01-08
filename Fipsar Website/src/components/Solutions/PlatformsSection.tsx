@@ -12,7 +12,11 @@ import {
   MessageCircleHeart, 
   ArrowRight,
   ArrowUpRight
-} from 'lucide-react';
+} from 'lucide-react'; 
+
+
+import  dataSphere   from '../../assets/PlatformSections/DataSphere.png';
+import  aiHub  from '../../assets/PlatformSections/AIHub.png';
 
 // --- Types ---
 interface SubFeature {
@@ -41,7 +45,7 @@ const platformsData: Platform[] = [
     description: 'A unified data platform for clinical, regulatory and enterprise intelligence.',
     themeColor: '#02A5E6',
     mainIcon: <Database className="w-8 h-8 md:w-10 md:h-10" />,
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop", // Data dashboard/analytics
+    image: dataSphere, // Data dashboard/analytics
     features: [
       {
         title: 'Clinical Data Intelligence',
@@ -72,7 +76,7 @@ const platformsData: Platform[] = [
     description: 'An AI-first platform powering automation and decision intelligence across Life Sciences.',
     themeColor: '#02A5E6',
     mainIcon: <BrainCircuit className="w-8 h-8 md:w-10 md:h-10" />,
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop", // Abstract AI/Brain
+    image: aiHub, // Abstract AI/Brain
     features: [
       {
         title: 'AI-Powered Trial Optimization',
